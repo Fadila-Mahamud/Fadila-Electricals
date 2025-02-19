@@ -32,12 +32,6 @@
 }
 /* Navbar */
 /* Carousel */
-/* .carousel-caption h2{
-    color: #000;
-    text-align: left;
-    font-size: 70px;
-    margin-bottom: 50px;
-} */
 .carousel-caption p{
     color: #000;
     text-align: left;
@@ -103,23 +97,65 @@
     font-weight: 500;
 }
 .service{
-    height: 300px;
+    height: 400px;
     background-color: #ffc107;
     width: 100%;
+    margin-top: 70px;
 }
 .container{
-    height: 300px;
+    height: 400px;
     background-color: #fff;
     width: 80%;
-}
-.serviceimages{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    box-shadow: 4px 4px 10px rgb(138, 137, 137); 
+    border: 1px #000;
+    margin-top: 70px;
 }
 .card-text{
     text-align: center;
     font-weight: 550;
     font-size: 23px;
 }
+.card{
+    margin-top: 30px;
+}
 /* Services */
+
+/* Service Process */
+#serviceProcess{
+    height: 600px;
+    background-color: #fff;
+    margin-top: 0px;
+}
+.Process .serviceYellow{
+    color: #ffc107;
+}
+.Process h2{
+    font-size: 55px;
+    text-align: center;
+    font-weight: 550;
+    margin-top: 70px;
+}
+.Process p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.serviceimages .card2{
+    height: 200px;
+    justify-content: space-around;
+}
+.serviceimages{
+    height: 90px;
+    width: 28%;
+
+}
+.card-title{
+    text-align: center;
+    font-weight: 550;
+    font-size: 23px;
+}
+.card2{
+    height: 200px;
+}
+/* Service Process */
